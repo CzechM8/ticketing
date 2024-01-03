@@ -18,10 +18,10 @@ spec:
           resources:
             limits:
               cpu: "0.2" 
-              memory: "128Mi" # 512 megabytes of memory
+              memory: "128Mi"
             requests:
-              cpu: "0.1" # 0.1 CPU cores
-              memory: "128Mi" # 256 megabytes of memory
+              cpu: "0.1"
+              memory: "128Mi"
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
