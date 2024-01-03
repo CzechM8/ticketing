@@ -17,8 +17,8 @@ spec:
           image: jleshardin/tickets
           resources:
             limits:
-              cpu: "0.5" # 0.5 CPU cores
-              memory: "512Mi" # 512 megabytes of memory
+              cpu: "0.2" # 0.5 CPU cores
+              memory: "128Mi" # 512 megabytes of memory
             requests:
               cpu: "0.1" # 0.1 CPU cores
               memory: "256Mi" # 256 megabytes of memory
