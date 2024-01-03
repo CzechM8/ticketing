@@ -25,7 +25,7 @@ spec:
               memory: "128Mi" # 512 megabytes of memory
             requests:
               cpu: "0.1" # 0.1 CPU cores
-              memory: "256Mi" # 256 megabytes of memory
+              memory: "128Mi" # 256 megabytes of memory
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
